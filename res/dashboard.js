@@ -53,7 +53,7 @@
 })()
 function cargarDatos() {
   $.ajax({
-    url:'datos-dashboard.php',
+    url:'../res/datos-dashboard.php',
     type:'POST'
   }).done(function responder() {
     alert(responder);
