@@ -88,7 +88,7 @@
             <div class="btn-group me-2">
               <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
             </div>
-            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" onclick="cargarDatos()">
+            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="cargarDatos()">
               <span data-feather="calendar"></span>
               This week
             </button>
