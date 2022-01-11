@@ -1,6 +1,6 @@
 <?php
 session_start();
-define('RUTA', 'http://localhost:8030/full-sys/');
+define('RUTA', 'https://jalm-cont.herokuapp.com/');
 require 'medoo.php';
 use Medoo\Medoo;
 try {
