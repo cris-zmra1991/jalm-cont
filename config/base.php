@@ -13,7 +13,7 @@ try {
   	'password' => '',
    ]);
 } catch (PDOException $e) {
-  echo "No se pudo conectar a la Base de Datos MYSQL";
+  $errorconexion = $e;
 }
 
 //try {
