@@ -165,8 +165,8 @@
 
     function cargarDatos() {
       $.ajax({
-        url:'../res/controladorgrafico.php',
-        type:'POST'
+        type: "POST",
+        url:'../res/controladorgrafico.php'
       }).done(function responder() {
         var data = JSON.parse(responder);
         alert(data);
