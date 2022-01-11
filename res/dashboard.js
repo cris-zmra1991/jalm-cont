@@ -41,7 +41,7 @@
       scales: {
         yAxes: [{
           ticks: {
-            beginAtZero: false
+            beginAtZero: true
           }
         }]
       },
@@ -51,3 +51,11 @@
     }
   })
 })()
+function cargarDatos() {
+  $.ajax({
+    url:'datos-dashboard.php',
+    type:'POST'
+  }).done(function responder() {
+    alert(responder);
+  })
+}
