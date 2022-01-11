@@ -7,10 +7,10 @@ try {
   $database = new Medoo([
   	// [required]
   	'type' => 'mysql',
-  	'host' => 'localhost',
-  	'database' => 'cp',
-  	'username' => 'root',
-  	'password' => '',
+  	'host' => 'bcb1jafhad9xmqsnbupc-mysql.services.clever-cloud.com',
+  	'database' => 'bcb1jafhad9xmqsnbupc',
+  	'username' => 'uayidyqxhmbs6tou',
+  	'password' => 'pCGODmqE77EWQxEFQwWZ',
    ]);
 } catch (PDOException $e) {
   $errorconexion = $e;
