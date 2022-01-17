@@ -4,6 +4,8 @@
  */
 class modelografico
 {
+  $arreglo = array();
+  
   private $conexion;
   function __construct()
   {
@@ -14,7 +16,7 @@ class modelografico
   function TraerDatos()
   {
     $sql = "SELECT * FROM users"
-    $arreglo = array();
+
     if($consulta = $this->conexion->query($sql))
     {
       while ($consultaWU = mysqli_fetch_array($sonsulta)) {
