@@ -4,8 +4,6 @@
  */
 class modelografico
 {
-  $arreglo = array();
-  
   private $conexion;
   function __construct()
   {
@@ -19,6 +17,7 @@ class modelografico
 
     if($consulta = $this->conexion->query($sql))
     {
+      $arreglo = array();
       while ($consultaWU = mysqli_fetch_array($sonsulta)) {
         $arreglo[] = $consultaWU;
       }
