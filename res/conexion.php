@@ -19,7 +19,7 @@
     }
     function conectar()
     {
-      $this->conexion = new mysqli($this->servidor,$this->user,$this->password,$this->bdatos);
+      $this->conexion = new mysqli($this->server,$this->user,$this->password,$this->bdatos);
       $this->conexion->set_charset("utf8");
     }
     function cerrar(){
