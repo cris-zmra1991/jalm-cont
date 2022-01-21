@@ -25,6 +25,10 @@
     function cerrar(){
       $this->conexion->close();
     }
+    public function query()
+        {
+        return $this->conexion->query();
+        }
   }
 
  ?>
