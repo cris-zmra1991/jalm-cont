@@ -11,7 +11,7 @@ class modelografico
   function TraerDatos()
   {
     $sql = "SELECT * FROM users";
-    if($consulta = $this->conexion->mysqli_query($sql))
+    if($consulta = $this->conexion->query($sql))
     {
       $arreglo = array();
       while ($consultaWU = mysqli_fetch_array($sonsulta)) {
