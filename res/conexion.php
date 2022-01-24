@@ -25,7 +25,9 @@
     function cerrar(){
       $this->conexion->close();
     }
-   
+   public function query($query){  
+    $this->query = $this->conexion->prepare($query);  
+    }
   }
 
  ?>
