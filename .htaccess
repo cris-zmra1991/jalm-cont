@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^acceso$ login/login.php [QSA]
+RewriteRule ^admin$ admin/index.php [QSA]

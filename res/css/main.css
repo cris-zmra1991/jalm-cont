@@ -1,0 +1,21 @@
+/* BODY STYLES */
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/fondo-login.jpg);
+	background-size: cover;
+}
+.body-overlay{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/* DIV PARA SEPARAR LOGIN DEL TOP */
+.divider{
+	height: 15vh;
+}
+/* CONTAINER LOGIN */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
