@@ -1,7 +1,4 @@
 <?php
-/**
- *
- */
 class modelografico
 {
   private $conexion;
@@ -14,9 +11,13 @@ class modelografico
   function TraerDatos()
   {
     $sql = "SELECT * FROM users";
+<<<<<<< HEAD
     $arreglo = array();
+=======
+>>>>>>> cde5adabae1d691035a300cc6a3d71dc61bed45b
     if($consulta = $this->conexion->query($sql))
     {
+      $arreglo = array();
       while ($consultaWU = mysqli_fetch_array($sonsulta)) {
         $arreglo[] = $consultaWU;
       }
@@ -25,5 +26,5 @@ class modelografico
     }
   }
 }
+?>
 
- ?>
