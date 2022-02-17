@@ -13,7 +13,7 @@ class modelografico
   }
   function TraerDatos()
   {
-    $sql = "SELECT * FROM users"
+    $sql = "SELECT * FROM users";
     $arreglo = array();
     if($consulta = $this->conexion->query($sql))
     {
