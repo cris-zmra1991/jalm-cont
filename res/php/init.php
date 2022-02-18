@@ -10,6 +10,6 @@ $database = new Medoo([
 	'host' => 'bcb1jafhad9xmqsnbupc-mysql.services.clever-cloud.com',
 	'database' => 'bcb1jafhad9xmqsnbupc',
 	'username' => 'uayidyqxhmbs6tou',
-	'password' => 'uayidyqxhmbs6tou'
+	'password' => 'pCGODmqE77EWQxEFQwWZ'
 ]);
 ?>
